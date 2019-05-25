@@ -116,7 +116,7 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
 
   config.merge({
     output: {
-      publicPath: 'http://cdn.chenzhicheng.com/'
+      publicPath: '//cdn.chenzhicheng.com/'
     }
   });
 
